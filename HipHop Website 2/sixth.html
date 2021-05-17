@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+ <html
+  <head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    </div>
+    </div>
+    <script type="text/javascript">
+      function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+  <a class="addtocart" href='javascript:if (typeof qty == "undefined") {qty = 0}; document.getElementsByClassName("qty")[0].innerHTML = ++qty;'></a><span class="qty">0</span>
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <input type="text" name="search" placeholder="Search..">
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <style>
+    .dark-mode {
+  background-color: black;
+  color: white;
+  }
+   </style>
+         <h1>90's HipHop Blog</h1>
+       <h2> Biggest HipHop News In The 90s</h2>
+
+   <p>Released just over a year after his debut record, In My Lifetime, Vol. 1 is Jay’s sophomore album,
+     and although it had more successful than his debut in terms of sales (138k first week vs 43k),
+     it was met with a lot criticism. Although much of the Mafioso theme that ran through Reasonable Doubt remains,
+     Jay added a touch of commercial style due working with high profile collaborations with Diddy and Trackmasters.
+     The album was criticised for taking a more radio-friendly approach, and tracks like “Sunshine,”. Over the years,
+     Jay has claimed that Vol. 1 could have been “a classic,” if he hadn’t chased radio airplay."What I did with ‘[In My Lifetime] Volume One’ was I tried to make records.
+     I had just made ‘Reasonable Doubt’ … it wasn’t successful in music industry terms,
+     it was a cult classic on the streets, but it wasn’t successful in the music business and I tried to blend the two.
+     If you look back on ‘In My Lifetime,’ there were songs on there that were brilliant. I don’t listen to that album because I think I messed it up.
+     It’s so many incredible records on there that I think I missed having two classics in a row [by] trying to get on the radio".
+
+     <div id="container">
+     <div id="main">
+
+     </div>
+   </div>
+   <footer id="footer"
+   <p>©2020 Prosper Mushipe</p>
+   <br /><br  />
+   <p> Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms Of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imprint</p>
+   <br /><br  />
+   <ul>
+   <li>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-twitter"></i>
+   </li>
+   <li>
+   <i class="fab fa-facebook"></i>
+   <i class="fab fa-facebook"></i>
+   </li>
+   <li>
+   <i class="fab fa-instagram"></i>
+   <i class="fab fa-instagram"></i>
+   </li>
+   </ul>
+   </footer>
+  </body>
+</html>
