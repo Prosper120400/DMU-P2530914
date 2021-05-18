@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>East Vs West</title>
+    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+  <body>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    </div>
+    </div>
+    <script type="text/javascript">
+      function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+  <a class="addtocart" href='javascript:if (typeof qty == "undefined") {qty = 0}; document.getElementsByClassName("qty")[0].innerHTML = ++qty;'></a><span class="qty">0</span>
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <input type="text" name="search" placeholder="Search..">
+    <style>
+          body{
+             margin: 0;
+
+
+          }
+
+         .fwh-slide{
+                 height: 48vh;
+                 box-sizing: border-box;
+
+         }
+    </style>
+     <h1>90's HipHop Blog</h1>
+      <br /><br  />
+      <section class="fwh-slide">
+      <img src="img/Biggie.jpg" height="350px" style="float: left"/>
+    <p> Initially the beef between East and West started because of the friendship of Biggie and 2pac.
+      As 2pac felt Biggie had a hand in the 1994 shooting where 2pac was shot multiple times.
+      This led to a lot of subliminal shots through interviews, magazines and many more.</p>
+    </section>
+      <br /><br  />
+      <br /><br  />
+      <br /><br  />
+      <section class="fwh-slide">
+      <img src="img/Tupac Shot.jpg" height="350px" style="float:right" >
+      <p> The beef intensified in 1996 as other rappers from the West and East coats started took sides to their from what coast they were from.
+       This beef changed rap forever as later in 1996 2pac drop the most disrespectful diss towards Biggie and others.
+       The outcome with this resulted with two legends in the rap game 2pac and Biggie losing their lives to gun violence.</p>
+    </section>
+
+        <br /><br  />
+        <br /><br  />
+        <br /><br  />
+        <section class="fwh-slide">
+      <img src="img/TupacBig.jpg" height="350px" style="float:left" >
+      <p> At 24, Christopher Wallace also known as Notorious BIG was dead. 6 months earlier, his contemporary Tupac Shakur was also gunned down and died. He was only 25. What a waste. Two super talented rappers dead before they hit their prime. Dead before they had time to realize their full potential. Dead before they could see how their music transformed a generation..
+       </section>
+        <div id="container">
+        <div id="main">
+
+        </div>
+    </div>
+
+
+
+  <footer id="footer"
+   <p>©2020 Prosper Mushipe</p>
+   <br /><br  />
+  <p> Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms Of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imprint</p>
+  <br /><br  />
+  <ul>
+  <li>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-twitter"></i>
+  </li>
+  <li>
+   <i class="fab fa-facebook"></i>
+   <i class="fab fa-facebook"></i>
+  </li>
+  <li>
+   <i class="fab fa-instagram"></i>
+   <i class="fab fa-instagram"></i>
+  </li>
+  </ul>
+   </footer>
+
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>HipHop</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="#">Home</a>
+  <a href="file:///C:/Users/User/Downloads/HipHop%20Website%202/sixth.html">About</a>
+  <a href="#">News</a>
+  <a href="#">Contact</a>
+  </div>
+  </div>
+  <script type="text/javascript">
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<a class="addtocart" href='javascript:if (typeof qty == "undefined") {qty = 0}; document.getElementsByClassName("qty")[0].innerHTML = ++qty;'></a><span class="qty">0</span>
+<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <input type="text" name="search" placeholder="Search..">
+       <h1>90's HipHop Blog</h1>
+     <h2> Biggest HipHop News In The 90s</h2>
+     <br /><br  />
+     <p>Influential HipHop Artists During The "Golden Era"
+  <a href="file:///C:/Users/User/Downloads/HipHop%20Website%202/second.html"> <img src="img/90s albums.jpg" alt="90s albums"/> </a>
+     <br /><br  />
+     <p> East Coast Vs West Coast
+  <a href="file:///C:/Users/User/Downloads/HipHop%20Website%202/third.html"> <img src="img/East Vs West.jpg" alt="East Coast Vs West Coast"/> </a>
+     <br /><br  />
+     <p> Nightclub shooting involving Puffy and JLo
+  <a href="file:///C:/Users/User/Downloads/HipHop%20Website%202/fourth.html"> <img src="img/PDidd n JLo.jpg" height="350"alt="Pdiddy"/> </a>
+      <br /><br  />
+      <p> Random Facts & Infromation
+  <a href="file:///C:/Users/User/Downloads/HipHop%20Website%202/sixth.html"> <img src="img/Rap collage.jpg" height="350"alt="Rap"/> </a>
+
+      <div id="container">
+      <div id="main">
+
+      </div>
+  </div>
+
+
+
+<footer id="footer"
+ <p>©2020 Prosper Mushipe</p>
+ <br /><br  />
+<p> Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms Of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imprint</p>
+<br /><br  />
+<ul>
+<li>
+ <i class="fab fa-twitter"></i>
+ <i class="fab fa-twitter"></i>
+</li>
+<li>
+ <i class="fab fa-facebook"></i>
+ <i class="fab fa-facebook"></i>
+</li>
+<li>
+ <i class="fab fa-instagram"></i>
+ <i class="fab fa-instagram"></i>
+</li>
+</ul>
+ </footer>
+</body>
+</html>
