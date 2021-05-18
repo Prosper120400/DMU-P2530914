@@ -16,6 +16,14 @@ h2 {
 
 }
 
+h3 {
+   font-family: Arial,sans-serif;
+   font-size: 40px;
+   text-align: center;
+   color: white
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -244,6 +252,7 @@ ul li:nth-child(2){
 ul li:nth-child(2) .fab{
     color: #3b5998
 }
+
 
 
 #container {
